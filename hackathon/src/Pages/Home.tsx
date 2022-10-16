@@ -3,12 +3,35 @@ import classes from './Pages.module.scss'
 
 const Home: React.FC = () => {
     return (
-        <div className={classes.home}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nam rerum labore tempore, quae sunt consequuntur odit magni, 
-            veritatis vitae nisi ducimus amet, laborum eaque? Quod consequatur 
-            dicta dolores expedita quaerat.
+        <div className={classes.wrapper}>
+            <div className={classes.content}>
+
+            <header className={classes.header}>
+                <div className={classes.layers}>
+                    <div className={classes.layer__header}>
+                        <div className={classes.layer__header__caption}>Добро пожаловать</div>
+                        <div className={classes.layer__header__title}>Хакатон Цифра</div>
+                    </div>
+                    <div className={`${classes.layer} ${classes.layers__base}`} ></div>
+                    <div className={`${classes.layer} ${classes.layers__middle}`} ></div>
+                    <div className={`${classes.layer}  ${classes.layers__front}`} ></div>
+                </div>
+            </header>
+
+            <main className={classes.main__page}>
+                <div className={classes.main__page__content}>
+                    <h2 className={classes.main__page__title}>Together for adventure</h2>
+                    <div className={classes.main__page__text}>
+                        Lorem ipsum, dolor sit amet 
+                        consectetur adipisicing elit. Voluptatem nesciunt eos reiciendis 
+                        voluptas alias sunt fuga non tempore, officiis ad sint 
+                        temporibus ab id iste iure molestiae ut enim adipisci.
+                    </div>
+                </div>
+            </main>
+
         </div>
+	</div>
     )
 }
 

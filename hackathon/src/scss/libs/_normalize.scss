@@ -1,9 +1,19 @@
+@font-face {
+    font-family: raleway_f;
+    src: url(../libs/fonts/raleway-regular.woff2);
+}
+@font-face {
+    font-family: raleway_f;
+    src: url(../libs/fonts/raleway-black.woff2);
+    font-weight: 900;
+}
+
 * {
     padding: 0;
     margin: 0;
     list-style: none;
     outline: none;
-    font-family: 'Nunito', Roboto, system-ui, Tahoma, sans-serif;
+    font-family: raleway_f, sans-serif;
     box-sizing: border-box;
 }
 
