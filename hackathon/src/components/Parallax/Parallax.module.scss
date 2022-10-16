@@ -1,0 +1,104 @@
+@import '../../scss/variables.scss';
+.header {
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        height: calc($index * 10);
+        background-image: url(../../assets/img/ground.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        bottom: calc($index * -4.5);
+    }
+
+    .layers {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        .layer__header {
+            z-index: 2;
+            transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
+            transition: $transition;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: $text;
+            text-shadow: 0 0 15px $text-shadow;
+            will-change: transform;
+            &__caption {
+                font-size: calc($index / 1.175);
+                letter-spacing: calc($index / 3.5);
+                margin-top: calc($index * -0.75);
+            }
+            &__title {
+                font-size: calc($index * 2);
+                letter-spacing: calc($index / 2.25);
+            }
+        }
+        .layer {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            background-size: cover;
+            background-position: center;
+            transition: $transition;
+            will-change: transform;
+        }
+        &__base {
+            transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
+            z-index: 0;
+            background-image: url(../../assets/img/1912125.jpg);
+        }
+        &__middle {
+            transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
+            z-index: 1;
+            background-image: url(../../assets/img/2.png);
+        }
+        &__front {
+            transform: translate3d(0, calc(var(--scrollTop) / 5.7), 0);
+            z-index: 3;
+            background-image: url(../../assets/img/1.png);
+        }
+    }
+}
+
+/*----------MAIN---------*/
+.main__page {
+    background-image: url(../../assets/img/second.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: $text;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    top: -1px;
+    z-index: 10;
+    &__content {
+        .main__page__title {
+            text-transform: uppercase;
+            font-size: calc($index * 1.8);
+            letter-spacing: calc($index / 7.5);
+            font-weight: 900;
+            transform: $main__page-transform;
+            transition: $transition;
+            will-change: transform;
+        }
+        .main__page__text {
+            max-width: calc($index * 30);
+            font-size: calc($index * 0.8);
+            margin-top: calc($index / 1.25);
+            transform: $main__page-transform;
+            transition: $transition;
+            will-change: transform;
+        }
+    }
+}

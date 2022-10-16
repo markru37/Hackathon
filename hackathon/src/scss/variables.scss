@@ -1,2 +1,8 @@
 $white: #ffffff;
 $background: #0a0a0ab7;
+
+$index: calc(1vw + 1vh);
+$text: #e7e7e0;
+$text-shadow: #9e7d35;
+$main__page-transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
+$transition: transform 0.75s cubic-bezier(0.075, 0.5, 0, 1);
