@@ -3,7 +3,8 @@ import classes from './Parallax.module.scss'
 
 const Parallax: React.FC = () => {
     return (
-        <>
+    <div className={classes.wrapper}>
+        <div className={classes.content}>
             <header className={classes.header}>
                 <div className={classes.layers}>
                     <div className={classes.layer__header}>
@@ -27,7 +28,8 @@ const Parallax: React.FC = () => {
                     </div>
                 </div>
             </main>
-        </>
+        </div>
+	</div>
     )
 }
 
