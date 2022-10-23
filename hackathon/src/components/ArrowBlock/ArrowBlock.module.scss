@@ -1,4 +1,15 @@
 @import '../../scss/variables.scss';
+@mixin abs-text {
+    position: absolute;
+    top: 70px;
+    z-index: 2;
+    max-width: 500px;
+    letter-spacing: 0.1em;
+    font-size: 17px;
+    line-height: 130%;
+    color: #e7e7e0;
+    text-shadow: 0 0 15px #9e7d35;
+}
 .main {
     margin-top: 100px;
     &__title {
@@ -8,7 +19,8 @@
         font-size: 32px;
         font-weight: 900;
         letter-spacing: 0.1em;
-        color: rgba(168, 68, 185, 0.692);
+        color: #e2e27e;
+        text-shadow: 0 0 15px #9e7d35;
     }
     .arrow__block {
         display: flex;
@@ -23,6 +35,14 @@
             top: 41px;
             width: 300px;
             height: 174px;
+        }
+        &__info {
+            @include abs-text;
+            left: 20px;
+        }
+        &__info__rotate {
+            @include abs-text;
+            right: 10px;
         }
         .gif__rotate {
             left: -42px;
