@@ -54,24 +54,24 @@
         &__base {
             transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
             z-index: 0;
-            background-image: url(../../assets/img/1912125.jpg);
+            background-image: url(../../assets/img/full.png);
         }
         &__middle {
             transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
             z-index: 1;
-            background-image: url(../../assets/img/2.png);
+            background-image: url(../../assets/img/_2.png);
         }
         &__front {
             transform: translate3d(0, calc(var(--scrollTop) / 5.7), 0);
             z-index: 3;
-            background-image: url(../../assets/img/1.png);
+            background-image: url(../../assets/img/_1.png);
         }
     }
 }
 
 /*----------MAIN---------*/
 .main__page {
-    background-image: url(../../assets/img/second.jpg);
+    background-image: url(../../assets/img/secondph.png);
     min-height: 100vh;
     background-size: cover;
     background-position: center;
