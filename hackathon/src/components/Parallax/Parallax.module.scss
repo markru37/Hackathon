@@ -46,6 +46,7 @@
             height: 100%;
             width: 100%;
             position: absolute;
+            object-fit: cover;
             background-size: cover;
             background-position: center;
             transition: $transition;
@@ -92,6 +93,8 @@
             transform: $main__page-transform;
             transition: $transition;
             will-change: transform;
+            color: $text;
+            text-shadow: 0 0 15px $text-shadow;
         }
         .main__page__text {
             max-width: calc($index * 30);
@@ -100,6 +103,8 @@
             transform: $main__page-transform;
             transition: $transition;
             will-change: transform;
+            color: #f7a2ff;
+            text-shadow: 0 0 15px $text-shadow;
         }
     }
 }
