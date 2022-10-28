@@ -2,7 +2,7 @@
     background: #ffffff;
     border: 1px solid #f1f1f1;
     border-radius: 12px;
-    max-width: 370px;
+    max-width: 400px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13,7 +13,6 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-left: 20px;
 }
 
 .report__text {
@@ -36,13 +35,11 @@
 }
 
 .report__photos {
-    position: relative;
 }
 
 .report__img {
-    position: absolute;
-    top: -24px;
-    right: -20px;
+    width: 368px;
+    border-radius: 12px 12px 0 0;
 }
 
 .report__container {
@@ -72,6 +69,7 @@
 
 .report__container .swiper-button-prev::after {
     border-radius: 0px 12px 12px 0px;
+    opacity: none;
 }
 
 .report__container .swiper-button-next::after {
