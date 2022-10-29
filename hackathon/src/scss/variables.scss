@@ -1,8 +1,8 @@
 $white: #ffffff;
-$background: rgb(255 190 190 / 75%);
+$background: rgb(0, 0, 0);
 
 $index: calc(1vw + 1vh);
 $text: #fde8ff;
 $text-shadow: #901799;
 $main__page-transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
-$transition: transform 0.75s cubic-bezier(0.075, 0.5, 0, 1);
+$transition: transform 0.75s cubic-bezier(0.01, 0.5, 0, 1);
