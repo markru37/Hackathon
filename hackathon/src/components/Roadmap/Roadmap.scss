@@ -1,26 +1,4 @@
-%text-title4 {
-    font-size: 22px;
-    font-weight: 200;
-    text-transform: uppercase;
-    line-height: 1.2;
-    color: whitesmoke;
-}
-
-%text-title3 {
-    font-size: 30px;
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: 1.2;
-    color: whitesmoke;
-}
-%text-title2 {
-    font-size: 18px;
-    font-weight: 300;
-    text-transform: uppercase;
-    line-height: 1.2;
-    color: whitesmoke;
-}
-
+@import '../../scss/variables.scss';
 .main_roadmap {
     position: relative;
     background-color: rgb(0, 0, 0);
@@ -64,7 +42,7 @@
 }
 
 ._anim-items {
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: 0.6s;
     transition: 0.6s;
 }
@@ -148,4 +126,17 @@
     border-radius: 15px;
     z-index: 3;
     padding: 6px;
+}
+.roadmap__list {
+    margin-bottom: 15px;
+}
+.roadmap__list li {
+    list-style: circle;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.roadmap_text_desc {
+    padding-left: 13px;
+    margin-top: 17px;
+    border-left: 2px #fff solid;
 }

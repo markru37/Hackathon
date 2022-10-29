@@ -1,0 +1,44 @@
+@import '../../scss/variables.scss';
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer_section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #000000;
+}
+.footer_title {
+    width: 100%;
+    @extend %text-title3;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer_seo {
+    display: flex;
+    justify-content: center;
+    .seo_butt {
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+        display: flex;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+        border: 2px rgb(72, 27, 104) solid;
+        border-radius: 15px;
+        padding: 5px;
+        color: #000000;
+        background: rgb(255, 255, 255);
+        font-size: 15px;
+        .svg_socweb-footer {
+            margin-left: 20px;
+        }
+    }
+}
