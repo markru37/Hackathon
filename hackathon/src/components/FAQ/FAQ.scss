@@ -26,6 +26,8 @@
     padding: 0px 0px 0px 30px;
     cursor: pointer;
     @extend %text-title2;
+    color: $text;
+    text-shadow: 0 0 15px $text-shadow;
 }
 .block__title:before,
 .block__title:after {
@@ -60,6 +62,8 @@
     display: none;
     padding: 10px 0px 0px 0px;
     @extend %text-title2;
+    color: $text;
+    text-shadow: 0 0 15px $text-shadow;
 }
 ._anim-items {
     opacity: 1;

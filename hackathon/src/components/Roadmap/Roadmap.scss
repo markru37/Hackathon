@@ -36,6 +36,8 @@
 }
 .roadmap_title {
     @extend %text-title3;
+    color: $text;
+    text-shadow: 0 0 15px $text-shadow;
     margin-bottom: 50px;
     z-index: 3;
     position: relative;
@@ -121,6 +123,8 @@
     position: relative;
     display: inline-block;
     @extend %text-title4;
+    color: $text;
+    text-shadow: 0 0 15px $text-shadow;
     margin-bottom: 20px;
     border: 1px #fff solid;
     border-radius: 15px;

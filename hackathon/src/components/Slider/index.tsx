@@ -33,7 +33,7 @@ const Slider: React.FC = () => {
                         <div className="report__photos">
                                 <img src={slider_img} alt="avatar" className="report__img" />
                             </div>
-                            <div className="report__text"><i>Дизайнер</i> <br />
+                            <div className="report__text"><i className="technology__text">Дизайнер</i> <br />
                                 Любит творчество и цифры, поэтому цифровое искусство ему по душе✌🏻
                                 Гуру дизайна и моделирования
                             </div>
@@ -47,7 +47,7 @@ const Slider: React.FC = () => {
                         <div className="report__photos">
                                 <img src={slider_img} alt="avatar" className="report__img" />
                             </div>
-                            <div className="report__text"> <i>IT-специалист</i> <br />
+                            <div className="report__text"> <i className="technology__text">IT-специалист</i> <br />
                                 Специалист в любых реальностях программирования, человек, который готов жить на кофе несколько суток подряд, преподаватель, фотограф, видеограф
                             </div>
                             <div className="report__name">Александр Кириллов</div>
@@ -60,7 +60,7 @@ const Slider: React.FC = () => {
                         <div className="report__photos">
                                 <img src={slider_img} alt="slider_img" className="report__img" />
                             </div>
-                            <div className="report__text"> <i>IT-специалист</i> <br />
+                            <div className="report__text"> <i className="technology__text">IT-специалист</i> <br />
                                 Программист без времени...
                             </div>
                             <div className="report__name">Артём Бояркин</div>
@@ -73,7 +73,7 @@ const Slider: React.FC = () => {
                         <div className="report__photos">
                                 <img src={slider_img} alt="slider_img" className="report__img" />
                             </div>
-                            <div className="report__text"> <i>IT-специалист</i> <br />
+                            <div className="report__text"> <i className="technology__text">IT-специалист</i> <br />
                                 Лёгкий на подъём, молодой программист, который готов всегда находить легкий способ для подъёма
                             </div>
                             <div className="report__name">Марк Румянцев</div>
@@ -86,7 +86,7 @@ const Slider: React.FC = () => {
                         <div className="report__photos">
                                 <img src={slider_img} alt="slider_img" className="report__img" />
                             </div>
-                            <div className="report__text"><i>IT-специалист</i> <br />
+                            <div className="report__text"><i className="technology__text">IT-специалист</i> <br />
                                 Мотивационный лидер, креативный, многофункциональный специалист, душа команды
                             </div>
                             <div className="report__name">Дмитрий Школьников</div>
@@ -99,7 +99,7 @@ const Slider: React.FC = () => {
                         <div className="report__photos">
                                 <img src={slider_img} alt="slider_Img" className="report__img" />
                             </div>
-                            <div className="report__text"> <i> Менеджер и маркетолог</i> <br />
+                            <div className="report__text"> <i className="technology__text"> Менеджер и маркетолог</i> <br />
                             Перспективный молодой человек с большими планами на жизнь, умеет выкрутиться из любой ситуации
                             </div>
                             <div className="report__name">Руслан Поляков</div>
@@ -112,7 +112,7 @@ const Slider: React.FC = () => {
                         <div className="report__photos">
                                 <img src={slider_img} alt="slider_Img" className="report__img" />
                             </div>
-                            <div className="report__text"><i>IT-специалист</i> <br />
+                            <div className="report__text"><i className="technology__text">IT-специалист</i> <br />
                                 Позитивный молодой человек, смекалист, всегда готов к изучению чего-то нового и неизведанного
                             </div>
                             <div className="report__name">Владимир Кожухарь</div>
