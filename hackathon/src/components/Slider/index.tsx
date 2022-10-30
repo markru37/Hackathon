@@ -11,6 +11,12 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import slider_img from '../../assets/img/slider_img.jpg';
+import sasha from '../../assets/img/sasha.jpg';
+import artem from '../../assets/img/artem.jpg';
+import mark from '../../assets/img/mark.jpg';
+import ruslan from '../../assets/img/ruslan.jpg';
+import jenya from '../../assets/img/jenya.jpg';
+import dima from '../../assets/img/dima.jpg';
 
 const Slider: React.FC = () => {
     
@@ -31,7 +37,7 @@ const Slider: React.FC = () => {
                     <div className="swiper-slide">
                         <div className="report__column">
                         <div className="report__photos">
-                                <img src={slider_img} alt="avatar" className="report__img" />
+                                <img src={jenya} alt="avatar" className="report__img" />
                             </div>
                             <div className="report__text"><i className="technology__text">Дизайнер</i> <br />
                                 Любит творчество и цифры, поэтому цифровое искусство ему по душе✌🏻
@@ -45,7 +51,7 @@ const Slider: React.FC = () => {
                     <div className="swiper-slide">
                         <div className="report__column">
                         <div className="report__photos">
-                                <img src={slider_img} alt="avatar" className="report__img" />
+                                <img src={sasha} alt="avatar" className="report__img" />
                             </div>
                             <div className="report__text"> <i className="technology__text">IT-специалист</i> <br />
                                 Специалист в любых реальностях программирования, человек, который готов жить на кофе несколько суток подряд, преподаватель, фотограф, видеограф
@@ -58,7 +64,7 @@ const Slider: React.FC = () => {
                     <div className="swiper-slide">
                         <div className="report__column">
                         <div className="report__photos">
-                                <img src={slider_img} alt="slider_img" className="report__img" />
+                                <img src={artem} alt="slider_img" className="report__img" />
                             </div>
                             <div className="report__text"> <i className="technology__text">IT-специалист</i> <br />
                                 Программист без времени...
@@ -71,7 +77,7 @@ const Slider: React.FC = () => {
                     <div className="swiper-slide">
                         <div className="report__column">
                         <div className="report__photos">
-                                <img src={slider_img} alt="slider_img" className="report__img" />
+                                <img src={mark} alt="slider_img" className="report__img" />
                             </div>
                             <div className="report__text"> <i className="technology__text">IT-специалист</i> <br />
                                 Лёгкий на подъём, молодой программист, который готов всегда находить легкий способ для подъёма
@@ -84,7 +90,7 @@ const Slider: React.FC = () => {
                     <div className="swiper-slide">
                         <div className="report__column">
                         <div className="report__photos">
-                                <img src={slider_img} alt="slider_img" className="report__img" />
+                                <img src={dima} alt="slider_img" className="report__img" />
                             </div>
                             <div className="report__text"><i className="technology__text">IT-специалист</i> <br />
                                 Мотивационный лидер, креативный, многофункциональный специалист, душа команды
@@ -97,7 +103,7 @@ const Slider: React.FC = () => {
                     <div className="swiper-slide">
                         <div className="report__column">
                         <div className="report__photos">
-                                <img src={slider_img} alt="slider_Img" className="report__img" />
+                                <img src={ruslan} alt="slider_Img" className="report__img" />
                             </div>
                             <div className="report__text"> <i className="technology__text"> Менеджер и маркетолог</i> <br />
                             Перспективный молодой человек с большими планами на жизнь, умеет выкрутиться из любой ситуации
