@@ -1,75 +1,68 @@
 @import '../../scss/variables.scss';
 .main_faq {
-    background-color: #000000;
-    padding-top: 100px;
-    min-height: 650px;
-    padding-bottom: 100px;
-}
-.wrapper {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 100px 0;
 }
 .faq_title {
     padding-bottom: 50px;
     font-weight: 800;
     font-size: 24px;
 }
-.block__item:not(:last-child) {
-    margin-bottom: 30px;
-}
-.block__title {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    position: relative;
-    padding: 0px 0px 0px 30px;
-    cursor: pointer;
-    @extend %text-title2;
-    color: $text;
-    text-shadow: 0 0 15px $text-shadow;
-}
-.block__title:before,
-.block__title:after {
-    content: '';
-    width: 10px;
-    height: 1px;
-    background-color: rgb(142, 96, 176);
-    position: absolute;
-    top: 8px;
-    transition: all 0.3s ease 0s;
-}
-.block__title:before {
-    transform: rotate(40deg);
-    left: 0;
-}
-.block__title:after {
-    transform: rotate(-40deg);
-    left: 8px;
-}
+.block__item {
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .block__title {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+        padding: 0px 0px 0px 30px;
+        cursor: pointer;
+        @extend %text-title2;
+        color: $text;
+        text-shadow: 0 0 15px $text-shadow;
+        &:before,
+        &:after {
+            content: '';
+            width: 10px;
+            height: 1px;
+            background-color: rgb(142, 96, 176);
+            position: absolute;
+            top: 8px;
+            transition: all 0.3s ease 0s;
+        }
+        &:before {
+            transform: rotate(40deg);
+            left: 0;
+        }
+        &:after {
+            transform: rotate(-40deg);
+            left: 8px;
+        }
 
-.block__title.active:before,
-.block__title.active:after {
-    background-color: rgb(255, 0, 111);
+        &.active:before,
+        &.active:after {
+            background-color: rgb(255, 0, 111);
+        }
+        &.active:before {
+            transform: rotate(-40deg);
+        }
+        &.active:after {
+            transform: rotate(40deg);
+        }
+    }
+    .block__text {
+        display: none;
+        padding: 10px 0px 0px 0px;
+        @extend %text-title2;
+        color: $text;
+        text-shadow: 0 0 15px $text-shadow;
+    }
 }
-.block__title.active:before {
-    transform: rotate(-40deg);
-}
-.block__title.active:after {
-    transform: rotate(40deg);
-}
-.block__text {
-    display: none;
-    padding: 10px 0px 0px 0px;
-    @extend %text-title2;
-    color: $text;
-    text-shadow: 0 0 15px $text-shadow;
-}
-._anim-items {
-    opacity: 1;
-    transition: 0.6s;
-}
-._anim-items._active {
-    opacity: 1;
-    transition: 0.6s;
-}
+// ._anim-items {
+//     opacity: 0;
+//     transition: 0.6s;
+// }
+// ._anim-items._active {
+//     opacity: 1;
+//     transition: 0.6s;
+// }

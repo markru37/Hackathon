@@ -30,7 +30,7 @@ const Slider: React.FC = () => {
                 <SwiperSlide>
                     <div className="swiper-slide">
                         <div className="report__column">
-                        <div className="report__photos">
+                            <div className="report__photos">
                                 <img src={slider_img} alt="avatar" className="report__img" />
                             </div>
                             <div className="report__text"><i className="technology__text">Дизайнер</i> <br />

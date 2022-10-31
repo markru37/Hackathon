@@ -7,8 +7,7 @@ const FAQ: React.FC = () => {
         loadMyScript()
     },[])
     return (
-        <div className="main_faq page__section_8">
-        <div className="block one wrapper">
+        <div className="main_faq">
             <div className="faq_title">FAQ</div>
             <div className="block__item">
                 <div className="block__title _anim-items"> What Lorem ipsum?</div>
@@ -88,7 +87,6 @@ const FAQ: React.FC = () => {
                 </div>
             </div>
         </div>
-    </div>
     )
 }
 
