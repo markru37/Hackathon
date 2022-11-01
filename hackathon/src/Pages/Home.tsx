@@ -7,10 +7,12 @@ import Slider from '../components/Slider'
 import Roadmap from '../components/Roadmap'
 import FAQ from '../components/FAQ'
 import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 const Home: React.FC = () => {
     return (
         <>  
+            <Header />
             <Parallax/>
             <div className={classes.wrapper}>
                 <div className={classes._container}>

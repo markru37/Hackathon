@@ -5,7 +5,7 @@ const Parallax: React.FC = () => {
     return (
     <div className={classes.wrapper}>
         <div className={classes.content}>
-            <header className={classes.header}>
+            <div className={classes.header}>
                 <div className={classes.layers}>
                     <div className={classes.layer__header}>
                         <div className={classes.layer__header__caption}>Добро пожаловать</div>
@@ -15,7 +15,7 @@ const Parallax: React.FC = () => {
                     <div className={`${classes.layer} ${classes.layers__middle}`} ></div>
                     <div className={`${classes.layer}  ${classes.layers__front}`} ></div>
                 </div>
-            </header>
+            </div>
 
             <main className={classes.main__page}>
                 <div className={classes.main__page__content}>
