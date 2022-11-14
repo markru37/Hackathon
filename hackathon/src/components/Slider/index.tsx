@@ -31,16 +31,16 @@ const Slider: React.FC = () => {
             pagination={{ clickable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
-            breakpoints={{
-                576: {
-                  // width: 576,
-                  slidesPerView: 2,
-                },
-                768: {
-                  // width: 768,
-                  slidesPerView: 1,
-                },
-              }}
+            // breakpoints={{
+            //     576: {
+            //       // width: 576,
+            //       slidesPerView: 2,
+            //     },
+            //     768: {
+            //       // width: 768,
+            //       slidesPerView: 1,
+            //     },
+            //   }}
 
         >
             <div className="swiper-wrapper">
