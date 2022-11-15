@@ -5,58 +5,137 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-
-.footer_section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #000000;
-}
-.footer_title {
-    width: 100%;
-    @extend %text-title3;
-    color: $text;
-    text-shadow: 0 0 15px $text-shadow;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-.footer_seo {
-    display: flex;
-    justify-content: center;
-    .seo_butt {
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-        display: flex;
-        width: 400px;
-        align-items: center;
-        justify-content: center;
-        border: 2px rgb(72, 27, 104) solid;
-        border-radius: 15px;
-        padding: 5px;
-        color: #000000;
-        background: rgb(179, 179, 179);
-        font-size: 15px;
-        .svg_socweb {
-            margin-left: 20px;
-        }
-        .link__tg {
-            font-weight: 900;
-            color: #000000;
-            margin-left: 10px;
-        }
-    }
-    @media (max-width: 1200px) {
-        flex-direction: column;
-        align-items: center;
-        .seo_butt {
-            justify-content: space-between;
-            padding: 10px;
-            &:not(:last-child) {
-                margin-bottom: 20px;
-                margin-right: 0;
+.footer {
+    &_section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #000000;
+        .footer__body {
+            .footer_title {
+                width: 100%;
+                @extend %text-title3;
+                color: $text;
+                text-shadow: 0 0 15px $text-shadow;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 60px;
+                text-align: center;
+                margin-bottom: 50px;
+                font-family: rubik_b;
+            }
+            .footer__container_block {
+                display: flex;
+                justify-content: space-between;
+                .subscribe {
+                    position: relative;
+                    padding: 0 0 20px 0;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                        left: 0;
+                        height: 77px;
+                    }
+                    &__container {
+                        .subscribe__body {
+                            position: relative;
+                            z-index: 2;
+                            padding: 30px 50px;
+                            align-items: center;
+                            border-radius: 2px;
+                            .subscribe__title {
+                                color: $text;
+                                text-shadow: 0 0 15px $text-shadow;
+                                font-size: 24px;
+                                line-height: 133%;
+                                letter-spacing: 0.1px;
+                                font-weight: 700;
+                                margin-bottom: 100px;
+                            }
+                            .subscribe__form {
+                                flex: 0 1 50%;
+                                display: flex;
+                                align-items: center;
+                                .subscribe__input {
+                                    width: 100%;
+                                    flex: 1 1 auto;
+                                    min-height: 80px;
+                                    font-size: 20px;
+                                    padding: 0 30px;
+                                    border: 1px solid rgb(255, 255, 255);
+                                    border-right: 0;
+                                    outline: none;
+                                    border-radius: 5px 0 0 5px;
+                                    background-color: rgb(224, 224, 224);
+                                    color: rgb(172, 172, 172);
+                                    &:focus {
+                                        color: rgb(0, 0, 0);
+                                    }
+                                }
+                                .subscribe__button {
+                                    background-color: rgb(0, 0, 0);
+                                    border: 1px solid rgb(255, 255, 255);
+                                    border-radius: 0 5px 5px 0;
+                                    display: flex;
+                                    min-height: 80px;
+                                    justify-content: center;
+                                    align-items: center;
+                                    color: rgb(255, 255, 255);
+                                    padding: 0 32px;
+                                    font-size: 20px;
+                                    outline: none;
+                                    transition: all 0.8s ease 0s;
+                                    &:hover {
+                                        background-color: rgb(255, 255, 255);
+                                        color: rgb(0, 0, 0);
+                                        transition: all 0.8s ease 0s;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .footer_seo {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .seo_butt {
+                        &:not(:last-child) {
+                            margin-bottom: 20px;
+                        }
+                        display: flex;
+                        width: 400px;
+                        align-items: center;
+                        justify-content: center;
+                        border: 2px rgb(72, 27, 104) solid;
+                        border-radius: 15px;
+                        padding: 5px;
+                        color: #000000;
+                        background: rgb(179, 179, 179);
+                        font-size: 15px;
+                        .svg_socweb {
+                            margin-left: 20px;
+                        }
+                        .link__tg {
+                            font-weight: 900;
+                            color: #000000;
+                            margin-left: 10px;
+                        }
+                    }
+                    @media (max-width: 1200px) {
+                        flex-direction: column;
+                        align-items: center;
+                        .seo_butt {
+                            justify-content: space-between;
+                            padding: 10px;
+                            &:not(:last-child) {
+                                margin-bottom: 20px;
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
