@@ -1,0 +1,15 @@
+C:\user\projprac\Hackathon\bin\Debug\net6.0\Hackathon.exe
+C:\user\projprac\Hackathon\bin\Debug\net6.0\Hackathon.deps.json
+C:\user\projprac\Hackathon\bin\Debug\net6.0\Hackathon.runtimeconfig.json
+C:\user\projprac\Hackathon\bin\Debug\net6.0\Hackathon.dll
+C:\user\projprac\Hackathon\bin\Debug\net6.0\Hackathon.pdb
+C:\user\projprac\Hackathon\obj\Debug\net6.0\Hackathon.csproj.AssemblyReference.cache
+C:\user\projprac\Hackathon\obj\Debug\net6.0\Hackathon.GeneratedMSBuildEditorConfig.editorconfig
+C:\user\projprac\Hackathon\obj\Debug\net6.0\Hackathon.AssemblyInfoInputs.cache
+C:\user\projprac\Hackathon\obj\Debug\net6.0\Hackathon.AssemblyInfo.cs
+C:\user\projprac\Hackathon\obj\Debug\net6.0\Hackathon.csproj.CoreCompileInputs.cache
+C:\user\projprac\Hackathon\obj\Debug\net6.0\Hackathon.dll
+C:\user\projprac\Hackathon\obj\Debug\net6.0\refint\Hackathon.dll
+C:\user\projprac\Hackathon\obj\Debug\net6.0\Hackathon.pdb
+C:\user\projprac\Hackathon\obj\Debug\net6.0\Hackathon.genruntimeconfig.cache
+C:\user\projprac\Hackathon\obj\Debug\net6.0\ref\Hackathon.dll
