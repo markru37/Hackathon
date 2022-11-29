@@ -11,8 +11,8 @@ const ArrowBlock: React.FC = () => {
 				Видео-презентация
 			</div>
 			<div className={classes.arrow__block}>
-				<span className="span__animate"></span>
-				<iframe className='box__animate' width="1280" height="720" src="https://www.youtube.com/embed/6TYkDy54q4E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+				<span className={classes.span__animate}></span>
+				<iframe className={classes.box__animate} width="1280" height="720" src="https://www.youtube.com/embed/6TYkDy54q4E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 			</div>
 		</div>
 	)
